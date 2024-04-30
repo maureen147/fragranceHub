@@ -1,0 +1,29 @@
+.bread-container{
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+.bread-container .breadscrumb-m{
+  width: 80%;
+  font-size: 18px;
+  font-weight: 500;
+  color: #777777;
+}
+.breadscrumb-m a{
+  color: #777777;
+}
+@media (min-width: 1px) and (max-width: 768px){
+  .bread-container{
+    display: none;
+  }
+}
+
+   /* Media Query for Tablets Ipads portrait mode */
+   @media (min-width: 768px) and (max-width: 1124px){
+    .bread-container .breadscrumb-m{
+      width: 90%;
+      font-size: 18px;
+      font-weight: 500;
+      color: #777777;
+    }
+   }

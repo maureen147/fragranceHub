@@ -1,0 +1,144 @@
+
+.header {
+    height: 160px;
+    width: 100%;
+  }
+  
+  .top-nav {
+    height: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 1.4rem;
+   
+  }
+
+  #bottom {
+    height: 50%;
+    background: #0098B8;
+  }
+
+  .search-sec{
+    width: 40%;
+  }
+  
+  .search-sec button {
+   background-color: black;
+   border: none;
+   border-radius: 0 8px 8px 0;
+   padding: 0 20px;
+  }
+
+  
+  .profile-con {
+    height: 50%;
+    display:flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 40px;
+   
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .search-sec select {
+    width: 160px;
+    height: 42px;
+    border: 1px solid gray;
+  }
+  
+  .select.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-width: 400px;
+    height: 100%;
+    padding: 1rem;
+  }
+  
+  .select-box {
+    border: none;
+    padding-left: 4px;
+    height: 42px;
+    width: 150px;
+  } 
+  
+  select option{
+    border: none;
+    background-color: white;
+   padding: 1rem;
+  }
+  
+  /* option:hover {
+    color: white;
+    background-color: black;
+  } */
+  
+  .dropp{
+    color: white !important;
+  }
+  .first-drop:focus, .first-drop:hover, .first-drop::after{
+    background-color: #0098B8 !important;
+    color: aliceblue !important;
+  }
+  
+  .everything-cart {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 4px;
+    padding-left: 4px;
+  }
+
+  .cart-sec {
+    position: absolute;
+  }
+
+  .cartcount {
+    height: 20px;
+    width: 20px;
+    background-color: #0098B8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 17px;
+    bottom: 13px;
+    color: white;
+    border-radius: 50%;
+  }
+  .cartcount span{
+    font-size: .8rem;
+  }
+  
+  .cart-sec img {
+    margin-bottom: 0.4rem;
+
+  }
+  
+  .navbar-nav{
+    --bs-nav-link-color: white !important;
+    /* --bs-nav-link-hover-color: white !important; */
+  }
+
+  .nav-link.show {
+    color: white !important;
+  }
+
+  .btn-light:hover {
+  background-color: inherit !important;
+  border: none !important;
+  }
+  @media(max-width: 767px) {
+    .header {
+      display: none;
+    }
+  }
+
+ 

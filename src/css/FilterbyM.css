@@ -1,0 +1,96 @@
+.offcanvas-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.offcanvas-button {
+    position: fixed;
+    bottom: 20px;
+    right: 21px;
+    z-index: 1000;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.offcanvas-menu {
+    position: fixed;
+    right: -100%; /* Start off canvas on the right side */
+    top: 0;
+    height: 100vh; /* Full height of the screen */
+    width: 80%; /* Adjust width as needed */
+    max-width: 400px; /* Set maximum width for the offcanvas menu */
+    overflow-y: auto;
+    background-color: #ffffff;
+    transition: right 0.3s ease; /* Transition from right to left */
+    z-index: 9999999;
+    /* padding: 20px; */
+    box-sizing: border-box;
+ /* Adjust border radius to match the sliding direction */
+}
+
+.offcanvas-menu.open {
+    right: 0;
+}
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 998;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 500;
+    color: #555;
+}
+.accord-offcanvas{
+    margin-top: 30px;
+}
+.filter-info{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #555;
+    height: 60px;
+    gap: 20px;
+    border-bottom: 1px solid gray;
+    padding: 5px 20px;
+    justify-content: space-between;
+
+}
+.filter-info .info-left-f{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 20px;
+}
+.filter-info button{
+    border: 1px solid #555;
+    padding: 2px 8px;
+    background-color: #ffffff;
+}
+.filter-info p{
+    display: flex;
+    padding: 10px 20px;
+}
+.filter-iconM{
+    position: relative;
+}
+.offcanvas-container .red-dotM{
+    position: absolute; 
+    color: red;
+    top: -5px;
+    left: 5px;
+
+}

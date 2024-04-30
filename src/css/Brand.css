@@ -1,0 +1,62 @@
+.frr-head{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.frr-head button{ 
+    border: none;
+    outline: none;
+    background-color: white;
+    font-size: 22px;
+    font-weight: lighter;
+}
+.frr-icon{
+  color: black;
+  font-size: 22px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+
+.frr-head button:hover{
+  cursor: pointer;
+  
+}
+
+.frag{
+    display: flex;
+    justify-content: space-around;
+}
+
+.fragrance{
+  display: flex;
+  max-width: 300px;
+  justify-content: center;
+  border: 1px solid #b6b5b5;
+  padding: 30px 40px 30px 30px;
+  width: 45%;
+  border-radius: 10px;
+  align-items: center;
+}
+
+@media (max-width: 900px){
+  .frr-head{
+    margin: 2%;
+  }
+  .frr-head h3{
+    font-size: 1.1rem;
+  }
+  .frag{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+  }
+.fragrance{
+  height: 5rem;
+  width: 45%;
+}
+.fragrance img{
+  width: 140px;
+  height: 60px;
+}
+}

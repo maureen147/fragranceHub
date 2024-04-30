@@ -1,0 +1,253 @@
+
+/* Android and Samsungs */
+@media (min-width: 320px) and (max-width: 640px) {
+        .card {
+            width: 10rem !important;
+            height: 300px !important;
+            text-align: left;
+            margin-left: 0px !important;
+        }
+        
+        .NA-card-image {
+            width: 100%;
+            height: 145px;
+        }
+        
+        .NA-card-title {
+            font-size: 0.7rem !important;
+        }
+        .NA-card-text{
+            font-size: 1rem !important;
+            font-family: Satoshi;
+            font-weight: 300;
+        }
+        .NA-card-price{
+            font-size: 1rem !important;
+            font-family: Satoshi;
+            font-weight: 500;
+        }
+        
+        .NA-card-btn {
+            width: 9rem;
+        }
+        .active>.page-link, .page-link.active{
+            color: white !important;
+            background-color: black !important;
+            /* border:none !important; */
+            border-radius: 50% ;
+            outline: none !important;
+        }
+        .page-link{
+            border-radius: 50%;
+            /* border: var(--bs-pagination-border-width) solid !important; */
+            color:black !important;
+            background-color: rgba(230, 226, 226, 0.584) !important;
+        }
+        .page-item:last-child .page-link {
+           
+            border: none !important;
+            background-color: white !important;
+        }
+        .page-item:first-child .page-link {
+            border: none !important;
+            border-radius: 50% !important;
+        }
+        .pagination{
+            --bs-pagination-focus-box-shadow:none !important;
+            margin-top:1rem !important;
+            margin-left: 3rem !important;
+            /* border: 1px solid red; */
+        }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .card {
+        width: 11rem;
+        height: 260px !important;
+        text-align: left;
+    
+    }
+    
+    .NA-card-image {
+        width: 100%;
+        height: 145px;
+    }
+    
+    .NA-card-title {
+        font-size: 0.7rem !important;
+    }
+    .NA-card-text{
+        font-size: 1rem !important;
+        font-family: Satoshi;
+        font-weight: 300;
+    }
+    .NA-card-price{
+        font-size: 1rem !important;
+        font-family: Satoshi;
+        font-weight: 500;
+    }
+    
+    .NA-card-btn {
+        width: 9rem;
+    }
+    .active>.page-link, .page-link.active{
+        color: white !important;
+        background-color: black !important;
+        /* border:none !important; */
+        border-radius: 50% ;
+        outline: none !important;
+    }
+    .page-link{
+        border-radius: 50%;
+        /* border: var(--bs-pagination-border-width) solid !important; */
+        color:black !important;
+        background-color: rgba(230, 226, 226, 0.584) !important;
+    }
+    .page-item:last-child .page-link {
+       
+        border: none !important;
+        background-color: white !important;
+    }
+    .page-item:first-child .page-link {
+        border: none !important;
+        border-radius: 50% !important;
+    }
+    .pagination{
+        --bs-pagination-focus-box-shadow:none !important;
+        margin-top:1rem !important;
+        margin-left: 3rem !important;
+        /* border: 1px solid red; */
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 900px) {
+    .card {
+        width: 14rem !important;
+        height: 450px !important;
+        text-align: left;
+    }
+
+    .NA-card-image {
+        width: 100%;
+        height: 250px;
+    }
+
+    .NA-card-title {
+        font-size: 0.9rem !important;
+        font-family: Satoshi;
+        font-weight: 400;
+    }
+    .NA-card-text{
+        font-size: 0.9rem !important;
+        font-family: Satoshi;
+        font-weight: 300;
+    }
+    .NA-card-price{
+        font-size: 1.1rem !important;
+        font-family: Satoshi;
+        font-weight: 500;
+    }
+
+    .NA-card-btn {
+        width: 13rem;
+    }
+    .active>.page-link, .page-link.active{
+        color: white !important;
+        background-color: black !important;
+        /* border:none !important; */
+        border-radius: 50% ;
+        outline: none !important;
+    }
+    .page-link{
+        border-radius: 50%;
+        /* border: var(--bs-pagination-border-width) solid !important; */
+        color:black !important;
+        background-color: rgba(230, 226, 226, 0.584) !important;
+    }
+    .page-item:last-child .page-link {
+       
+        border: none !important;
+        background-color: white !important;
+    }
+    .page-item:first-child .page-link {
+        border: none !important;
+        border-radius: 50% !important;
+    }
+    .pagination{
+        --bs-pagination-focus-box-shadow:none !important;
+        margin-top:1rem !important;
+        margin-left: 10rem !important;
+        /* border: 1px solid red; */
+
+    }
+}
+
+@media (min-width: 900px) {
+    .card {
+        width: 16.35rem !important;
+        height: 470px !important;
+        text-align: left;
+    }
+
+    .NA-card-image {
+        width: 100%;
+        height: 252px;
+    }
+
+    .NA-card-title {
+        font-size: 1rem !important;
+        font-family: Satoshi;
+        font-weight: 400;
+    }
+    .NA-card-text{
+        font-size: 0.9rem !important;
+        font-family: Satoshi;
+        font-weight: 300;
+    }
+    .NA-card-price{
+        font-size: 1.2rem !important;
+        font-family: Satoshi;
+        font-weight: 500;
+    }
+    /* .NA-card-body{
+        height: 270px !important;
+    } */
+
+    .NA-card-btn {
+        width: 14rem;
+    }
+    .pagination{
+        --bs-pagination-focus-box-shadow:none !important;
+        margin-left: 10rem !important;
+        
+    }
+    .active>.page-link, .page-link.active{
+        color: white !important;
+        background-color: black !important;
+        /* border:none !important; */
+        border-radius: 50% ;
+        outline: none !important;
+    }
+    .page-link{
+        border-radius: 50%;
+        /* border: var(--bs-pagination-border-width) solid !important; */
+        color:black !important;
+        background-color: rgba(230, 226, 226, 0.584) !important;
+    }
+    .page-item:last-child .page-link {
+       
+        border: none !important;
+        background-color: white !important;
+    }
+    .page-item:first-child .page-link {
+        border: none !important;
+        border-radius: 50% !important;
+    }
+    .pagination{
+        --bs-pagination-focus-box-shadow:none !important;
+        margin-top:1rem !important;
+        margin-left: 10rem !important;
+        /* border: 1px solid red; */
+    }
+}

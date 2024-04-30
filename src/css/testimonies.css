@@ -1,0 +1,401 @@
+.main{
+  width: 100%; /* original is 400 */
+  height: 350px;   
+  background-color:#00758E;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.main-body{
+    height: 40%;
+    width: 90%;
+}
+
+.heading{
+  padding-top: 20px;
+  color: white;
+}
+.box-container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    gap: 15px;
+
+}
+
+.box {
+    width: 360px;
+    height: 182px; /* original is 215  */
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2px;
+  }
+
+
+  .para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+  .icon{
+    padding-left: 15px;
+  }
+  .arrow-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+
+.head-icon{
+  font-size: 50px;
+}
+
+.arrow-icons svg {
+    margin: 0 5px; /* Add some spacing between icons */
+    color: #555; /* Change the color */
+    font-size: 24px; /* Adjust the size */
+}
+
+
+
+.pic-story{
+  height: 40px;
+  width: 40px;
+  display: flex;
+  padding: 5px;
+}
+.pic-story img{
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.pic-story h3{
+  font-size: 1rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+
+.pic-story p{
+  padding-left: 10px;
+}
+
+.pics-celeb{
+  width: 100%;
+  height: 48px;
+  display: flex;
+}
+.pic-text{
+  width: 60%;
+  padding-left: 7px;
+}
+.pic-text p{
+  font-size: .8rem;
+  color: #777;
+}
+
+
+.star{
+  align-items: end;
+}
+.box-container-mobile{
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main{
+    width: 100%;
+    height: 350px;
+    background-color:#00758E;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+  }
+  
+  
+  .main-body{
+     height: 60%;
+     /* padding-left: 20px; */
+     /* width: 100%; */
+  }
+  
+  .heading{
+    padding-top: 5px;
+    /* padding-left: px; */
+    color: white;
+   /* display: flex;
+   justify-content: space-between; */
+   /* align-items: center; */
+   height: 20px;
+  }
+  .content{
+    height: 23px;
+  }
+  
+  .content p{
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .content h1{
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .box-container-mobile{
+     height: 40vh;
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     gap: 10px;
+     /* flex-wrap: wrap; */
+     flex-direction: row;
+     padding-top: 40px;
+     /* background-color: red; */
+     overflow-x: scroll;
+     
+    
+
+  }
+  
+  .box {
+   height: 50%;
+   display: flex;
+   /* justify-content: space-between; */
+   flex-direction: column;
+   flex: 0 0 50%;
+   scroll-snap-align: start;
+    /* display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    width: 40%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around; */
+  }
+  
+  
+    .para{
+      height: 60px;
+      font-size: 1rem;
+      font-weight: 400;
+      width: 100%;
+      padding-left: 20px;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+    }
+    
+  
+    .icon{
+      /* border: 1px solid red; */
+      height: 5px;
+      padding-top: 5px;
+     /* padding-top: 15px; */
+    }
+   
+  .arrow {
+    display: none;
+  }
+  .head-icon{
+   display: none;
+  }
+  
+  .arrow-icons svg {
+     display: none;
+  }
+  .arrow-container h1{
+    font-size: 0.9rem;
+  }
+  .arrow-container p{
+    padding-left: 20px;
+  }
+  
+  .pics-celeb{
+   height: 40%;
+   padding-top: 7px;
+   /* border: red solid; */
+  }
+  .pic-text h6{
+   font-size: 0.9rem;
+  }
+  .pic-text p{
+    font-size: 0.7rem;
+  }
+  
+  .star{
+   
+  }
+
+  .box-container{
+    display: none;
+  }
+}
+
+
+@media (min-width: 370px) and (max-width: 767px) {
+  .main{
+    width: 100%;
+    height: 210px;
+    background-color:#00758E;
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+  }
+  
+  
+  .main-body{
+     height: 60%;
+     /* padding-left: 20px; */
+     /* width: 100%; */
+  }
+  
+  .heading{
+    padding-top: 5px;
+    /* padding-left: px; */
+    color: white;
+   /* display: flex;
+   justify-content: space-between; */
+   /* align-items: center; */
+   height: 20px;
+  }
+  .content{
+    height: 23px;
+  }
+  
+  .content p{
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .content h1{
+    font-weight: 800;
+  }
+  .box-container-mobile{
+     height: 40vh;
+     width: 100%;
+     display: flex;
+     justify-content: space-around;
+     gap: 10px;
+     /* flex-wrap: wrap; */
+     flex-direction: row;
+     padding-top: 40px;
+     /* background-color: red; */
+     overflow-x: scroll;
+     
+    
+
+  }
+  
+  .box {
+   height: 50%;
+   display: flex;
+   /* justify-content: space-between; */
+   flex-direction: column;
+   flex: 0 0 50%;
+   scroll-snap-align: start;
+    /* display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    width: 40%;
+    height: 120px;
+    display: flex;
+    justify-content: space-around; */
+  }
+  
+  
+    .para{
+      height: 20px;
+      font-size: 0.5rem;
+      font-weight: 500;
+      width: 100%;
+      padding-left: 20px;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      
+      /* text-align: center; */
+    }
+    
+  
+    .icon{
+      /* border: 1px solid red; */
+      height: 5px;
+      padding-top: 5px;
+     /* padding-top: 15px; */
+    }
+   
+  .arrow {
+    display: none;
+  }
+  .head-icon{
+   display: none;
+  }
+  
+  .arrow-icons svg {
+     display: none;
+  }
+  .arrow-container h1{
+    font-size: 0.9rem;
+  }
+  .arrow-container p{
+    padding-left: 20px;
+  }
+  
+  
+  .pic-story{
+    border-radius: 100%;
+  }
+  .pic-story img{
+    height: 80%;
+    width: 100%;
+   /* height: 100%; */
+   /* width: 100%; */
+   /* padding-bottom: 7px; */
+   border-radius: 50%;
+  }
+  
+  .pic-story{
+   /* font-size: 10px; */
+  }
+  
+  .pic-story{
+   
+  }
+  
+  .pics-celeb{
+   height: 40%;
+   padding-bottom: 7px;
+   /* border: red solid; */
+  }
+  .pic-text h6{
+   font-size: 0.7rem;
+  }
+  .pic-text p{
+    font-size: 0.7rem;
+  }
+  
+  .star{
+   
+  }
+
+  .box-container{
+    display: none;
+  }
+
+}

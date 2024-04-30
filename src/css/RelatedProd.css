@@ -1,0 +1,102 @@
+.rpB{
+    width: 23rem !important;
+    /* display: flex; */
+    align-items: center;
+    height: 70rem;
+    
+}
+.rpg-container{
+    width: 100%;
+}
+.rpG{
+    width: 100% !important;
+    height: 100% !important;
+    border: 1px solid gray !important;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem !important;
+    
+    }
+    .cardG{
+        width: 100% !important;
+        height: 31rem !important;
+        
+    }
+    .imgGa{
+        height: 15.5rem;
+    }
+    .btnG{
+        width: 95% !important;
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
+        height: 3rem;
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px){
+        .rpB{
+            width: 46rem !important;
+            height: 35rem;
+        }
+        .rpG{
+            width: 44rem !important;
+            height: 35rem !important;
+            border: none !important;
+            overflow-x:auto !important;
+            }
+            .cardG{
+                width: 21.5rem !important;
+                height: 34rem !important;
+                flex-shrink: 0; /* Prevent shrinking */
+        flex-grow: 0;
+            }
+            .imgGa{
+                height: 18.75rem;
+            }
+            .btnG{
+                width: 20.5rem !important;
+                margin-bottom: 0 !important;
+                margin-left: 0 !important;
+            }
+        }
+    
+    @media (min-width: 370px) and (max-width: 767px) {
+       .rpB{
+        width: 23.6rem !important;
+        height: 23rem;
+       
+       }
+        .rpG{
+        width: 23.4rem !important;
+        height: 100% !important;
+        border: none !important;
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        gap: 20px;
+        overflow-x: scroll;
+       }
+       .cardG{ 
+        width: 50% !important;
+        height: 410px !important;
+        flex: 0 0 60%;
+       }
+       .imgGa{
+        height: 12.5rem;
+    }
+       .hg{
+        font-size: 0.8rem !important; 
+       }
+       .pg{
+        font-size: 0.8rem !important; 
+       }
+       .ppg{
+        font-size: 1rem !important; 
+       }
+       .btnG{
+        width: 12.5rem !important;
+        margin-bottom: 0 !important;
+        margin-left: 0 !important;
+       }
+       
+    }   

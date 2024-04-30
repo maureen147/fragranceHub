@@ -1,0 +1,174 @@
+.container-milly{
+    width: 100%;
+    height: 100vh;
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-side-milly{
+    width: 35%;
+    background-color: white;
+    display: block;
+    margin: 0 auto;
+}
+.top-section-milly{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* height: 18%; */
+
+}
+.top-section-milly h2{
+    font-size: 25px;
+    width: 80%;
+}
+
+.top-section-milly p{
+    font-size: 25px;
+}
+.top-section-milly img{
+    height: 16px;
+    width: 10rem
+}
+.form-milly{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.form-action{
+    display:flex;
+    flex-direction: column;
+   
+
+}
+.form-control{
+    outline: none !important;
+    box-shadow: none !important;
+    border: 1px solid whitesmoke;
+}
+.password-input-wrapper{
+    position: relative;
+  
+  }
+  .password-input-wrapper span {
+    position: absolute;
+    top: 15%;
+    right: 3%;
+  }
+
+  
+.right-side-milly{
+    width: 50%;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.right-side-milly img{
+    width: 100%;
+    height: 100%;
+}
+.hhh-milly{
+    
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    width: 100%;
+    
+   
+}
+
+
+.hhh-milly .span-milly{
+    color: rgba(0, 152, 184, 1);
+}
+.hhh-milly p{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 10px;
+}
+.hhh-milly input{
+  
+    
+    border: 1px solid rgba(0, 152, 184, 1)r;
+    /* border-radius: 5px; */
+    /* padding-right: 10px; */
+}
+.pic{
+    width: 24px;
+    height: 24px;
+    
+}
+.black-milly button{
+    width: 100%;
+    height: 6vh;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.white-milly button{
+    width: 100%;
+    height: 6vh;
+    border-radius: 5px;
+    border: 2px black solid;
+    background-color: white;
+    gap: 2rem;
+    
+}
+
+.white-milly button a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    
+}
+.bb{
+    margin-top: 10px;
+}
+.bb p a{
+    text-decoration: none;
+    color: rgba(0, 152, 184, 1);
+    
+}
+span{
+    justify-content: center;
+}
+
+.dis{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.line{
+    width: 45%;
+    height: 1px;
+    background-color: black;
+}
+input[type="checkbox"]:checked{
+    accent-color: black !important;
+}
+
+
+@media ( max-width: 600px ) {
+ .container-milly{
+        flex-direction: column-reverse;
+        /* overflow-y: scroll; */
+        justify-content: space-around;
+    }
+    .left-side-milly{
+        width: 96%;
+    }
+    .right-side{
+        width: 96%;
+        height: 40vh;
+        display: none;
+    }
+    .right-side img{
+        width: 100%;
+        display: none;
+    }
+   
+}

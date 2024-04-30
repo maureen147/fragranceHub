@@ -1,0 +1,122 @@
+.detail-card-loading{
+    width: 100%;
+    height: 485px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.detail-image-loading{
+    width: 50%;
+    height: 100%;
+    border: 1px solid #D7D7D7;
+    display: flex;
+    padding: 0.5rem 0;
+    gap: 20px;
+    animation: loadingAnimation 1s infinite alternate;
+}
+.detail-side-image-loading{
+    width: 25%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+.side-image{
+    width: 5.18rem;
+    height: 6rem;
+    border: 2px solid #D7D7D7;
+    margin-top: 0.5rem;
+    background-color: #ccc;
+    border-radius: 6px;
+    animation: loadingAnimation 1s infinite alternate;
+
+
+}
+.detail-main-image-loading{
+    width: 70%;
+    height: 100%;
+    background-color: #ccc;
+    border: 2px solid #D7D7D7;
+    border-radius: 6px;
+    animation: loadingAnimation 1s infinite alternate;
+
+}
+.detail-info-loading{
+    width: 40%;
+    height: 100%;
+    border: 1px solid #D7D7D7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px; 
+    padding: 0px 15px;
+    
+}
+
+.detail-name-loading {
+    width: 80%;
+    height: 20px;
+    margin: 10px 0;
+    background-color: #ccc;
+    animation: loadingAnimation 1s infinite alternate;
+
+}
+.detail-description-loading {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    animation: loadingAnimation 1s infinite alternate;
+
+}
+.detail-price-loading {
+    width: 50%;
+    height: 16px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    animation: loadingAnimation 1s infinite alternate;
+
+}
+.detail-size-loading {
+    width: 30%;
+    height: 16px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    animation: loadingAnimation 1s infinite alternate;
+
+}
+.detail-quantity-loading {
+    width: 80%;
+    height: 16px;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    animation: loadingAnimation 1s infinite alternate;
+}
+.detail-button-loading {
+    width: 95%;
+    height: 40px;
+    margin-top: 10px;
+    background-color: #ccc;
+    border-radius: 6px;
+    animation: loadingAnimation 1s infinite alternate;
+  }
+  @media (max-width: 1024px){
+    .detail-card-loading{
+        flex-direction: column;
+        gap: 20px;
+        height: 700px;
+    }
+    .detail-image-loading{
+        width: 100%;
+    }
+    .detail-info-loading{
+        width: 100%;
+    }
+}
+@media (max-width: 1024px){
+
+.side-image{
+    width: 50px;
+    height: 40px;
+}
+}

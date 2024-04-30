@@ -1,0 +1,52 @@
+.home-all-fragrance{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.home-all-fragrance-header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 600;
+}
+.home-all-fragrance-header :last-child{
+    font-size: 18px;
+    color: #0098B8;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.home-all-fragrnace-product{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+@media (max-width: 786px) {
+    .home-all-fragrnace-product{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .home-all-fragrance-header{
+        font-size: 18px;
+    }
+    .home-all-fragrance-header :last-child{
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        gap: 4px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .home-all-fragrnace-product{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

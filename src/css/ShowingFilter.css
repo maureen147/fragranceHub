@@ -1,0 +1,17 @@
+.selected-filters{
+    display: flex;
+    font-weight: 500;
+    gap: 5px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5px 0;
+}
+.selected-filters strong{
+    font-size: 20px;
+}
+.selected-filters span{
+    padding: 1px 2px;
+    border: 1px solid lightgrey;
+    background-color: lightblue;
+
+}

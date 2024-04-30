@@ -1,0 +1,529 @@
+@import "https://fonts.googleapis.com/css2?family=Trade+Winds&display=swap";
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+
+@media (max-width: 767px) {
+    .footer-bg{
+        background: #00262E;
+        height: 75vh;
+        padding: 1rem 1rem 0rem 1rem;
+        color: #FFFFFF;
+    }
+    .footer-top{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.footer-dropdown .btn-primary{
+    background-color: transparent;
+    border: none;
+}
+.footer-dropdown .btn-primary:focus, .footer-dropdown .btn-primary:hover{
+    background-color: transparent;
+}
+.footer-dropdown .dropdown-toggle::after{
+    display: none;
+}
+.footer-head{
+    display: flex;
+    }
+.footer-forms{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.form-buttons{
+    background-color: #01849F;
+    width: 95px;
+    height: 1.7rem;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.form-buttons p{
+    color: white;
+    justify-content: center;
+    /* display: flex; */
+    font-size: 15px;
+}
+.q-links{
+    display: none;
+}
+.u-links{
+    display: none;
+}
+.footer-bottom {
+    display: none;
+}
+.contact-info h5{ 
+    display: none;
+}
+.contact-info p{
+    display: none;
+}
+.footer-info h3{
+    font-family: 'Trade Winds';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 25px;
+    }
+    .footer-info h3 span{
+        font-size: 20px;
+    }
+    .footer-info p{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    }
+    .footer-nl h5{
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-transform: capitalize;
+    }
+    .footer-nl p{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 300;
+        line-height: 10px;
+        font-size: 12px;
+    }
+    .footer-links{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        background-color: none;
+    }
+    .contact-info h6{
+        color: #FFFFFF;
+     text-decoration: none;
+     font-family: 'Satoshi';
+     font-style: bold;
+     font-weight: 400;
+     line-height: 15px;
+     font-size: 18px;
+     margin-left: 0.9rem;
+    }
+    .form-button{
+        background-color: #01849F;
+        width: 85px;
+        height: 1.5rem;
+        border: none;
+        border-radius: 3px;
+        margin-right: 10px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+    .form-button p{
+        color: white;
+        justify-content: center;
+        /* display: flex; */
+        font-size: 10px;
+    }
+    .form-image{
+        justify-self: right;
+        display: flex;
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+    .footer-logo{
+        width: 80px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0.9rem;
+        margin-top: 1rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .footer-bg{
+        background: #00262E;
+        height: 50vh;
+        padding: 2rem 4rem 0rem 4rem;
+        color: #FFFFFF;
+    }
+    .footer-top{
+        width: 100%;
+        height: 45%;
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+    }
+    .footer-info{
+    width: 30%;
+    font-family: 'Satoshi';
+    }
+    .footer-head{
+    display: flex;
+    }
+    .footer-info h3{
+        font-family: 'Trade Winds';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 25px;
+        }
+        .footer-info h3 span{
+            font-size: 20px;
+        }
+        .footer-info p{
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 200;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.01em;
+        }
+        .footer-forms{
+            width: 35%;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            position: relative;
+        }
+        .q-link{
+            list-style-type: none;
+        }
+        .u-link{
+            list-style-type: none;
+        }
+        
+        .q-link h5{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: 'Satoshi';
+        font-style: bold;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 14px;
+        }
+        .u-link h5{
+            list-style-type: none;
+            color: #FFFFFF;
+            text-decoration: none;
+            font-family: 'Satoshi';
+            font-style: bold;
+            font-weight: 400;
+            line-height: 20px;
+            font-size: 14px;
+        }
+
+.footer-bottom{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+    }
+    
+    .news-form{
+        width: 30%;
+    }
+    .ul{
+        text-decoration: none;
+    }
+    .footer-logo{
+        width: 80px;
+        display: flex;
+        justify-content: space-between;
+    }
+    li a{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 100;
+        line-height: 20px;
+        font-size: 14px;
+    }
+    .contact-info h5{
+     list-style-type: none;
+     color: #FFFFFF;
+     text-decoration: none;
+     font-family: 'Satoshi';
+     font-style: bold;
+     font-weight: 400;
+     line-height: 15px;
+     font-size: 14px;
+    }
+    .contact-info p {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 300;
+        line-height: 10px;
+        font-size: 12px;
+        
+    }
+    .contact-info h6{
+        color: #FFFFFF;
+     text-decoration: none;
+     font-family: 'Satoshi';
+     font-style: bold;
+     font-weight: 400;
+     line-height: 15px;
+     font-size: 14px;
+    }
+    .footer-nl h5{
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+        text-transform: capitalize;
+    }
+    .footer-nl p{
+        color: #FFFFFF;
+        text-decoration: none;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 300;
+        line-height: 10px;
+        font-size: 12px;
+    }
+    .footer-form{
+        width: 35%;
+        display: flex;
+        justify-content: right;
+        align-items: center;
+    }
+    .footer-form .form-control{
+     font-size: 12px !important;
+    }
+    .form-button{
+        background-color: #01849F;
+        width: 85px;
+        height: 1.5rem;
+        border: none;
+        border-radius: 3px;
+        margin-right: 10px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+    .form-button p{
+        color: white;
+        justify-content: center;
+        /* display: flex; */
+        font-size: 10px;
+    }
+    .form-image{
+        justify-self: right;
+        display: flex;
+        margin-top: 7px;
+        margin-left: 5px;
+    }
+    .footer-links{
+        display: none;
+    }
+    .footer-news{
+        display: none;
+    }
+}
+
+@media (min-width: 1025px){
+.footer-bg{
+    background: #00262E;
+    height: 70vh;
+    padding: 2rem 4rem 0rem 4rem;
+    color: #FFFFFF;
+}
+.footer-top{
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.footer-info{
+width: 30%;
+font-family: 'Satoshi';
+}
+.footer-head{
+display: flex;
+}
+.footer-info h3{
+font-family: 'Trade Winds';
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+line-height: 25px;
+}
+.footer-info h3 span{
+    font-size: 20px;
+}
+.footer-info p{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.01em;
+}
+.footer-forms{
+    width: 35%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: relative;
+}
+.q-link{
+    list-style-type: none;
+}
+.u-link{
+    list-style-type: none;
+}
+
+.q-link h5{
+color: #FFFFFF;
+text-decoration: none;
+font-family: 'Satoshi';
+font-style: bold;
+font-weight: 400;
+line-height: 20px;
+font-size: 14px;
+}
+.u-link h5{
+    list-style-type: none;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Satoshi';
+    font-style: bold;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+}
+.footer-bottom{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+align-items: center;
+}
+
+.news-form{
+    width: 30%;
+}
+.ul{
+    text-decoration: none;
+}
+.footer-logo{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20px;
+    font-size: 14px;
+}
+.contact-info h5{
+ list-style-type: none;
+ color: #FFFFFF;
+ text-decoration: none;
+ font-family: 'Satoshi';
+ font-style: bold;
+ font-weight: 400;
+ line-height: 15px;
+ font-size: 14px;
+}
+.contact-info p {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 10px;
+    font-size: 12px;
+    
+}
+.contact-info h6{
+    color: #FFFFFF;
+ text-decoration: none;
+ font-family: 'Satoshi';
+ font-style: bold;
+ font-weight: 400;
+ line-height: 15px;
+ font-size: 14px;
+}
+.footer-nl h5{
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+.footer-nl p{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 10px;
+    font-size: 12px;
+}
+.footer-form{
+    width: 35%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.footer-form .form-control{
+ font-size: 12px !important;
+}
+.form-button{
+    background-color: #01849F;
+    width: 85px;
+    height: 1.5rem;
+    border: none;
+    border-radius: 3px;
+    margin-right: 10px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+.form-button p{
+    color: white;
+    justify-content: center;
+    /* display: flex; */
+    font-size: 10px;
+}
+.form-image{
+    justify-self: right;
+    display: flex;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+.footer-links{
+    display: none;
+}
+.footer-news{
+    display: none;
+}
+   }
+   
+   
+   

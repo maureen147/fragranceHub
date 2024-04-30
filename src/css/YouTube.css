@@ -1,0 +1,35 @@
+
+
+/* .ytp-cued-thumbnail-overlay-image {
+    border-radius: 4rem;
+} */
+.youtubeG{
+    width:100% !important;
+    height:32rem !important;
+}
+.gvideo{
+    width: 100% !important;
+    height: 27rem !important;
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    .youtubeG{
+        width:46.5rem !important;
+        height:31rem !important;
+    }
+    .gvideo{
+        width: 43.5rem !important;
+        height: 27rem !important;
+    }
+    }
+@media (min-width: 370px) and (max-width: 767px) {
+    .youtubeG{
+        width:24rem !important;
+        height:27rem !important;
+        /* border: 1px solid black !important; */
+       
+    }
+    .gvideo{
+        width: 22rem !important;
+        height: 24rem !important;
+    }
+}   

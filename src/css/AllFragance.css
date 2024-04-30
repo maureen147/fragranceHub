@@ -1,0 +1,404 @@
+.m-section{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+.m-header{
+    height: 160px;
+    background-color: lightblue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.m-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    /* border: 1px solid black; */
+
+}
+.m-title{
+    /* border: 1px solid red; */
+    height: 87px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.m-title .title-left{
+    height: 100%;
+}
+.title-left .breadscrumb-m{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400;
+    color: #777777;
+    gap: 5px;
+}
+.title-left .breadscrumb-m .gt{
+    font-weight: 400;
+    font-size: 25px;
+}
+.m-title .title-right{
+    height: 49px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    /* border: 1px solid yellow; */
+    width: 243px;
+}
+.selectM{
+    width: 170px;
+    height: 49px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    gap: 10px;
+}
+
+.m-content{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    /* background-color: red; */
+}
+.m-content .m-controls{
+    border: 1px solid gray;
+    height: 100%;
+    width: 20%;
+    border-radius: 10px;
+    padding-bottom: 30px;
+}
+.control-text{
+    /* border: 1px solid red; */
+    margin-top: 20px;
+    text-align: center;
+    width: 50%;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.m-content .m-products{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    justify-content: space-between;
+}
+.m-controls-mobile{
+    display: none;
+}
+.m-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.show-filterM{
+    width: 100%;
+    text-align: left;
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media(max-width: 320px) {
+    .m-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 20px;
+        /* border: 1px solid black; */
+    
+    }
+    .m-title{
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        width: 90%;
+    }
+    .title-left .breadscrumb-m{
+        display: none;
+    }
+    .m-title .title-right{
+        display: none;
+    }
+    
+    .m-content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .m-content .m-controls{
+        display: none;
+    }
+    .m-controls-mobile{
+        width: 100%;
+        height: 60px;
+        border-top: 2px solid #E6E6E6 ;
+        border-bottom: 2px solid #E6E6E6 ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+    .m-controls-mobile h3{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        height: 100%;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .m-content .m-products{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .show-filterM{
+        display: none;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 379px) {
+    .m-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 20px;
+        /* border: 1px solid black; */
+    
+    }
+    .m-title{
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        width: 90%;
+    }
+    .title-left .breadscrumb-m{
+        display: none;
+    }
+    .m-title .title-right{
+        display: none;
+    }
+    
+    .m-content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .m-content .m-controls{
+        display: none;
+    }
+    .m-controls-mobile{
+        width: 100%;
+        height: 60px;
+        border-top: 2px solid #E6E6E6 ;
+        border-bottom: 2px solid #E6E6E6 ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+    .m-controls-mobile h3{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        height: 100%;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .m-content .m-products{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .show-filterM{
+        display: none;
+    }
+}
+@media (min-width: 380px) and (max-width: 767px) {
+    .m-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 20px;
+        /* border: 1px solid black; */
+    
+    }
+    .m-title{
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        width: 90%;
+    }
+    .title-left .breadscrumb-m{
+        display: none;
+    }
+    .m-title .title-right{
+        display: none;
+    }
+    
+    .m-content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .m-content .m-controls{
+        display: none;
+    }
+    .m-controls-mobile{
+        width: 100%;
+        height: 60px;
+        border-top: 2px solid #E6E6E6 ;
+        border-bottom: 2px solid #E6E6E6 ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+        margin-bottom: 20px;
+    }
+    .m-controls-mobile h3{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        height: 100%;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+    .m-content .m-products{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .show-filterM{
+        display: none;
+    }
+   
+   }
+   
+   /* Media Query for Tablets Ipads portrait mode */
+   @media (min-width: 768px) and (max-width: 1024px){
+    .m-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding-top: 20px;
+        /* border: 1px solid red; */
+    }
+    .m-title{
+        height: 80px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin-bottom: 0;
+        width: 90%;
+    }
+    .title-left .breadscrumb-m{
+        display: none;
+    }
+    .m-title .title-right{
+        display: none;
+    }
+    
+    .m-content{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .m-content .m-controls{
+        display: none;
+    }
+    .show-filterM{
+        display: none;
+    }
+    .m-controls-mobile{
+        width: 100%;
+        height: 60px;
+        border-top: 2px solid #E6E6E6 ;
+        border-bottom: 2px solid #E6E6E6 ;
+
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 5%;
+        margin-bottom: 20px;
+    }
+    .m-controls-mobile h3{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        height: 100%;
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+
+    .m-content .m-products{
+        width: 95%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+    }
+     
+
+   }
+   
+ 
+   @media (min-width: 1025px) and (max-width: 1280px){
+    .m-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 95%;    
+    }
+    
+   }

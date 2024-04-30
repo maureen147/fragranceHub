@@ -1,0 +1,51 @@
+.btn-brand {
+    width: 1.2rem;
+    height: 24px;
+    border: 1px solid rgba(180, 180, 180, 0.895);
+    background-color: white;
+    margin-top: 11px;
+    margin-left: 5px;
+}
+
+.b-div {
+    width: 16rem;
+    height: 120px;
+    /* border: 1px solid rgb(196, 192, 192); */
+    border-radius: 5px;
+}
+@media (min-width: 768px) and (max-width: 900px) {
+    .btn-brand {
+        width: 1.2rem;
+        height: 24px;
+        border: 1px solid rgba(180, 180, 180, 0.895);
+        background-color: white;
+        margin-top: 11px;
+        margin-left: 5px;
+    }
+    
+    .b-div {
+        width: 13rem;
+        height: 150px;
+        border: 1px solid rgb(196, 192, 192);
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 900px) {
+    .btn-brand {
+        width: 1.2rem;
+        height: 24px;
+        border: 1px solid rgba(180, 180, 180, 0.895);
+        background-color: white;
+        margin-top: 11px;
+        margin-left: 5px;
+    }
+    
+    .b-div {
+        width: 12.5rem;
+        height: 150px;
+        border: 1px solid rgb(196, 192, 192);
+        border-radius: 5px;
+    }
+}
+

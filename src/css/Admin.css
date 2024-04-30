@@ -1,0 +1,9 @@
+
+.list-group-item:focus, .list-group-item::after, .list-group-item:active, .list-group-item:hover, .list-group-item::selection{
+    background-color: #0098B8 !important;
+    color: aliceblue !important;
+}
+
+.form-select:focus{
+    box-shadow: none !important;
+}

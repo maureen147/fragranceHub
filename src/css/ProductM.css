@@ -1,0 +1,213 @@
+.m-card-Container{
+    border: 1px solid #d7d7d7;
+    width: 293px;
+    height: 470px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;    
+}
+.m-image{
+    width: 100%;
+    height: 55%;
+    border-radius: 8px;
+}
+.m-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.m-card-info{
+    width: 250px;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.m-card-text{
+    width: 100%;
+    height: 85px;
+    /* border: 1px solid yellow; */
+    color: #000000;
+}
+.m-card-text h4{
+ font-size: 18px;
+}
+.m-card-text p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.m-card-text h2{
+    font-size: 20px;
+}
+
+.m-card-btn button{
+    width: 100%;
+    height: 50px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background-color: #000000;
+    font-size: 20px;
+
+}
+.m-card-btn .not-ava{
+    background-color: #A3A3A3;
+}
+.link{
+    text-decoration: none;
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 300px) and (max-width: 320px) {
+    .m-card-Container{
+        border: 1px solid #d7d7d7;
+        width: 280px;
+        height: 270px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 0%;
+        
+    }
+    .m-image{
+        width: 100%;
+        height: 55%;
+        border-radius: 8px;
+    }
+    .m-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .m-card-info{
+        width: 90%;
+        height: 45%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 0px;
+        
+    }
+    .m-card-text{
+        width: 100%;
+        height: 65%;
+        /* border: 1px solid yellow; */
+        color: #000000;
+
+    }
+    .m-card-text h4{
+     font-size: 11px;
+    }
+    .m-card-text p{
+        font-size: 8px;
+        padding: none;
+        margin: none;
+    }
+    .m-card-text h2{
+        padding: none;
+        margin: none;
+        font-size: 12px;
+    }
+    .m-card-btn{
+        height: 30%;
+    }
+    .m-card-btn button{
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        border: none;
+        color: white;
+        background-color: #000000;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 767px) {
+    .m-card-Container{
+        border: 1px solid #d7d7d7;
+        width: 170px;
+        height: 270px;
+        border-radius: 4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        row-gap: 0%;
+        
+    }
+    .m-image{
+        width: 100%;
+        height: 55%;
+        border-radius: 8px;
+    }
+    .m-image img{
+        width: 100%;
+        height: 100%;
+    }
+    .m-card-info{
+        width: 90%;
+        height: 45%;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        gap: 0px;
+    }
+    .m-card-text{
+        width: 100%;
+        height: 65%;
+        /* border: 1px solid yellow; */
+        color: #000000;
+
+    }
+    .m-card-text h4{
+     font-size: 11px;
+    }
+    .m-card-text p{
+        font-size: 8px;
+        padding: none;
+        margin: none;
+    }
+    .m-card-text h2{
+        padding: none;
+        margin: none;
+        font-size: 12px;
+    }
+    .m-card-btn{
+        height: 30%;
+    }
+    .m-card-btn button{
+        width: 100%;
+        height: 100%;
+        border-radius: 6px;
+        border: none;
+        color: white;
+        background-color: #000000;
+        font-size: 12px;
+    }
+   
+   
+   }
+   
+   /* Media Query for Tablets Ipads portrait mode */
+   @media (min-width: 768px) and (max-width: 1124px){
+    .m-card-Container{
+        border: 1px solid #d7d7d7;
+        width: 240px;
+        height: 450px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;    
+    }
+    .m-card-info{
+        padding: 0 8px;
+    }
+    .m-card-text{
+        padding: 0 10px;
+    }
+   }
+   

@@ -1,0 +1,84 @@
+ /* .accordion {
+  --bs-accordion-border-width: none !important;
+  --bs-accordion-border-color: none !important;
+  --bs-accordion-active-color: none !important;
+  --bs-accordion-active-bg: none !important;
+  min-height: 80px;
+  display: flex;
+  --bs-accordion-btn-icon: url("../assets/images/ic_sharp-plus.jpg") !important;
+  --bs-accordion-btn-active-icon: url("../assets/images/ic_outline-minus.jpg")!important;
+} */
+
+/* .accord-header-g .accordion-button {
+  background: none !important;
+} */
+
+.accord-header-g {
+  --bs-accordion-btn-icon: url("../assets/images/ic_sharp-plus.jpg") !important;
+  --bs-accordion-btn-active-icon: url("../assets/images/ic_outline-minus.jpg")!important;
+  --bs-accordion-border-color: none !important;
+  --bs-accordion-active-color: none !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+} 
+
+
+/* .accordion-button::after {
+  background-image: var(--bs-accordion-btn-icon) !important;
+}
+
+.accord-header-g .accordion-button:not(.collapsed)::after {
+  background-image: url("../assets/images/ic_outline-minus.jpg") !important;
+} */
+
+
+/* .accordion-button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background: none !important;
+} */
+.accordionG {
+  width: 100% !important;
+  max-height: 100% !important;
+  align-items: center;
+  justify-content: center;
+  /* margin-bottom: 10px; */
+}
+.detailG {
+  font-size: 1rem;
+}
+/* .accord-header-g{
+  min-height: 80px;
+  display: flex;
+} */
+.accordion-body{
+  padding-top:0 !important;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .accordionG {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+  }
+  .accG {
+    width: 100% !important;
+  }
+  .detailG {
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .accord-header-g{
+    min-height: 50px;
+    display: flex;
+  }
+  .accordionG {
+    width: 100% !important;
+  }
+  .accG {
+    width: 100% !important;
+  }
+  .detailG {
+    font-size: 0.75rem;
+  }
+}
