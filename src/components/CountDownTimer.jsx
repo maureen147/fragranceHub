@@ -76,7 +76,7 @@ const CountDownTimer = () => {
             ? Array.from({ length: 4 }).map((_, index) => (
                 <ProductCardLoading key={index} />
               ))
-            : flashProduct.map((product) => {
+            : flashProduct?.map((product) => {
                 const { _id, images, name, description, price, isAvailable } =
                   product;
                 let Price = price.toLocaleString(undefined, {
@@ -88,7 +88,7 @@ const CountDownTimer = () => {
                       <div key={_id}>
                         <div className="m-card-Container" key={_id}>
                           <div className="m-image">
-                            <img src={images[0].url} />
+                            <img src={images[0]?.url} />
                           </div>
                           <div className="m-card-info">
                             <div className="m-card-text">

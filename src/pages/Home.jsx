@@ -17,8 +17,8 @@ const Home = () => {
       <Hero />
       <Brands />
       <Testimonies />
-      <CountDownTimer/>
-      <AllfragranceComponent/>
+      {/* <CountDownTimer/> */}
+      {/* <AllfragranceComponent/> */}
       <NewArrivalComponent title="New Arrivals" link = "/new-arrivals"/>
       <BlogCard />
       <Footer />
